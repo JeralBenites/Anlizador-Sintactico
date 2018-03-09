@@ -1,0 +1,49 @@
+_/           __          
+_/    __ ___/  |________ 
+_/   |  |  \   __\___ _ \ 
+_/   |  |  /|  |  |  |_> >
+_/   |____/ |__|  |   __/ 
+_/                |__|  
+_/
+  _AÑADIENDO 
+  _SWITCH Y
+  _CASE
+
+{ Operaciones Basicas 
+  entre dos numeros 
+  con switch y case
+
+  op-> suma=+
+       resta=-
+       multi=*
+       divi=/
+}
+ 
+ x:=4;
+ y:=3;
+ op:=divi;
+
+switch (op) 
+      case suma . resu:=x+y;
+                  write resu
+                  end
+      case resta . if op=resta then
+                   resu:=x-y;
+                   write resu
+                   end
+                   end
+      case multi . while(op=multi)
+                   resu:=x*y;
+                   write resu
+                   end
+                   end
+      case divi . resu:=x/y;
+                  write resu
+                  end
+                  case suma . resu:=x+y;
+                  write resu
+                  end
+      default . write error 
+                 end
+
+end
